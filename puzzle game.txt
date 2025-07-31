@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+#define fast_io ios::sync_with_stdio(false); cin.tie(nullptr);
+
+
+#define ll long long
+#define vi vector<int>
+#define vll vector<long long>
+#define pb push_back
+#define all(v) v.begin(), v.end()
+#define endl '\n'
+
+
+#define debug(x) cerr << #x << " = " << x << endl;
+
+void solve() {
+    
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    for (int &x : arr) cin >> x;
+
+    sort(all(arr));
+    for (int x : arr) cout << x << " ";
+    cout << endl;
+}
+
+int main() {
+    fast_io
+
+    int t;
+    cin >> t; 
+    while (t--) {
+        solve();
+    }
+
+    return 0;
+}
