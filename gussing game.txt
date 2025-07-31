@@ -1,0 +1,70 @@
+🎮 Number Guessing Game in C++
+📋 Description
+This is a console-based number guessing game written in C++. The game allows a player to create a profile, and then play through levels of increasing difficulty. On each level, the player tries to guess a randomly generated number within a specific range and limited number of attempts. A single hint (even/odd) is allowed per game.
+
+🧑‍💻 Features
+Create a personalized player profile (name and avatar)
+
+Score tracking system
+
+Level-based progression with increasing difficulty
+
+One hint per game (reveals if the number is even or odd)
+
+Clean and simple console interface
+
+🚀 How to Run
+1. Compile the program
+Using g++:
+
+bash
+Copy
+Edit
+g++ -o guessing_game main.cpp
+2. Run the executable
+bash
+Copy
+Edit
+./guessing_game
+Make sure you have a C++ compiler like g++ installed on your system.
+
+🧱 Project Structure
+bash
+Copy
+Edit
+main.cpp       
+README.md     
+🔧 How It Works
+Player is prompted to enter their name and choose an avatar.
+
+The game introduces the rules.
+
+On each level:
+
+A random number is generated within an increasing range.
+
+Player gets a limited number of attempts (decreasing per level).
+
+Player can use a one-time hint to find if the number is even or odd.
+
+Score increases based on correct guesses.
+
+📦 Dependencies
+C++ Standard Library
+
+No external libraries required
+
+📅 Future Improvements (To-Do)
+Implement actual guessing loop and input logic
+
+Add hint system (currently mentioned but not implemented)
+
+Level progression and win/lose conditions
+
+Persistent score saving
+
+Option to restart or exit game
+
+📃 License
+This project is open source and free to use for learning or modification purposes.
+
